@@ -1,0 +1,13 @@
+# Web Framework & Visualization
+streamlit
+plotly
+
+# Data Handling & Document Extraction
+pandas
+PyPDF2
+
+# Machine Learning & NLP
+torch
+transformers  # This includes the BERT models
+scikit-learn
+nltk

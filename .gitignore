@@ -1,0 +1,13 @@
+# Environments
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS generated files
+.DS_Store
+
+# Temporary data (Optional: un-comment if you don't want to upload test resumes)
+# data/*.pdf
