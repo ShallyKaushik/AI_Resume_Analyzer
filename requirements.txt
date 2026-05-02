@@ -1,6 +1,7 @@
 # Web Framework & Visualization
 streamlit
 plotly
+matplotlib
 
 # Data Handling & Document Extraction
 pandas
