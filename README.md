@@ -35,27 +35,30 @@ Follow these instructions to run the application on your local machine.
 git clone [https://github.com/ShallyKaushik/AI_Resume_Analyzer.git](https://github.com/ShallyKaushik/AI_Resume_Analyzer.git)
 cd AI_Resume_Analyzer
 
-2. Create a Virtual Environment (Recommended)
+### 2. Create a Virtual Environment (Recommended)
+```bash
 python -m venv venv
 # Activate on Windows:
 .\venv\Scripts\activate
 # Activate on Mac/Linux:
 source venv/bin/activate
 
-3. Install Dependencies
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
 
-4. Run the Application
+### 4. Run the Application
+```bash
 streamlit run app.py
 
-💻 How to Use
-Upload Resumes: Use the file uploader to select one or multiple .pdf resume files.
+### 💻 How to Use
+##Upload Resumes: Use the file uploader to select one or multiple .pdf resume files.
 
-Enter Job Description: Paste the text of the job description you are hiring for into the text area.
+##Enter Job Description: Paste the text of the job description you are hiring for into the text area.
 
-Analyze: Click the "Analyze Resumes & Calculate ATS Scores" button.
+##Analyze: Click the "Analyze Resumes & Calculate ATS Scores" button.
 
-Review Results:
+##Review Results:
 
 If a single resume is uploaded, view the detailed ATS compatibility gauge chart.
 
@@ -63,7 +66,7 @@ If multiple resumes are uploaded, view the ranked candidate leaderboard and the 
 
 Expand the "Resume Transcripts" section to view the cleaned, preprocessed text the AI used to make its decision.
 
-🔄 Development Lifecycle
+### 🔄 Development Lifecycle
 This project was developed using the Iterative SDLC Model, allowing for continuous refinement of the machine learning modules, scoring mechanisms, and user interface over multiple development cycles[cite: 1].
 
-Made with ❤️ by Shelly Kaushik
+## Made with ❤️ by Shelly Kaushik
